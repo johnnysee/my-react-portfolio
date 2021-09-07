@@ -1,11 +1,11 @@
 describe("User can navigate the app", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:3000")
+    cy.visit("http://localhost:3000");
   });
 
   describe("to About tab and it", () => {
     beforeEach(() => {
-      cy.get("#about-tap").click();
+      cy.get("#about-tab").click();
     });
 
     it("displays About Me header", () => {
@@ -17,7 +17,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display My Projects header ", () => {
-      cy.get("projects-header").should("not.exist");
+      cy.get("#projects-header").should("not.exist");
     });
 
     it("does not display Hello world", () => {
@@ -27,7 +27,7 @@ describe("User can navigate the app", () => {
 
   describe("to My Projects tab and it", () => {
     beforeEach(() => {
-      cy.get("projects-tab").click();
+      cy.get("#projects-tab").click();
     });
 
     it("displays My Projects header", () => {

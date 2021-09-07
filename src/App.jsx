@@ -11,10 +11,10 @@ const App = () => {
     <>
       <Header />
       <Switch>
-        <Route exact path="/" components={Hello}></Route>
-        <Route exact path="/about" components={About}></Route>
-        <Route exact path="/projects" components={Projects}></Route>
-      <Hello />
+        <Route exact path="/" component={Hello}></Route>
+        <Route exact path="/about" component={About}></Route>
+        <Route exact path="/projects" component={Projects}></Route>
+        <Hello />
       </Switch>
       <Footer />
     </>
