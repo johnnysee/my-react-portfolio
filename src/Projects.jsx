@@ -1,7 +1,7 @@
-import { render } from '@testing-library/react';
-import React from 'react'
-import { Container, Divider } from "semantic-ui-react"
+import React, {Component} from 'react'
 import axios from "axios";
+import { Container, Grid } from "semantic-ui-react";
+import ProjectCard from './ProjectCard'
 
 class Projects extends Component {
   state = {
@@ -11,9 +11,8 @@ class Projects extends Component {
   componentDidMount() {
     axios.get("./data/projects.json").then((response) => {
       this.setState({ projects: response.data});
-    });
+  });
   }
-
 
   render() {
     const { projects } = this.state;
@@ -21,7 +20,7 @@ class Projects extends Component {
     let projectsList = projects.map((project) => {
       return (
         <div id={`project-${project.id}`} key={project.id}>
-        <h3>{project.name}</h3>
+        <ProjectCard project={project} />
         </div>
       );
     });
@@ -29,7 +28,7 @@ class Projects extends Component {
     return (
     <Container>
       <h1 id="projects-header">My Projects</h1>
-      {projectsList}
+      <Grid>{projectsList}</Grid>
     </Container>
     );
   }

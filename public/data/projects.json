@@ -1,10 +1,20 @@
 [
   {
     "id": 1,
-    "name": "My First Website"
+    "name": "My First Website",
+    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+    "description": "This was my first project. The guy lost, but won the popular vote!"
   },
   {
     "id": 2,
-    "name": "FizzBuzz"
+    "name": "UI Design",
+    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+    "description": "This was my first project. The guy lost, but won the popular vote!"
+  },
+  {
+  "id": 3,
+  "name": "Mobile UX",
+  "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
+  "description": "This was my first project. The guy lost, but won the popular vote!"
   }
 ]
