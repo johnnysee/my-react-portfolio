@@ -8,7 +8,7 @@ describe("User can see list of projects", () => {
     cy.get("#project-1").within(() => {
       cy.get(".image").should("exist");
       cy.get(".header").should("contain", "ATM Machine App");
-      cy.get(".description").should("contain", "This was my first ruby application. It is an ATM machine where the user can create a person, account and an ATM in terminal.");
+      cy.get(".description").should("contain", "The user can create a person, account and an ATM in terminal. User can enter their personal pin code and check their balance and withdraw money.");
     });
   });
 
@@ -18,7 +18,7 @@ describe("User can see list of projects", () => {
       cy.get(".header").should("contain", "Library App");
       cy.get(".description").should(
         "contain",
-        "It is a library application written in Ruby. A user can create a library and a visitor in terminal"
+        "The user can create a library and a visitor in terminal. The librarian can check the library's collection of books, but also check available books. The visitor can checkout book and see return date."
       );
     });
   });
@@ -29,7 +29,7 @@ describe("User can see list of projects", () => {
       cy.get(".header").should("contain", "Address Book App");
       cy.get(".description").should(
         "contain",
-        "It is an Address Book App where the user can add new contacts which will be added in a list."
+        "The user can add new contacts which will be added in a list."
       );
     });
   });
