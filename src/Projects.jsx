@@ -1,15 +1,38 @@
+import { render } from '@testing-library/react';
 import React from 'react'
-import { Container } from "semantic-ui-react"
+import { Container, Divider } from "semantic-ui-react"
+import axios from "axios";
 
-const Projects = () => {
-  return (
+class Projects extends Component {
+  state = {
+    projects: [],
+  };
+
+  componentDidMount() {
+    axios.get("./data/projects.json").then((response) => {
+      this.setState({ projects: response.data});
+    });
+  }
+
+
+  render() {
+    const { projects } = this.state;
+
+    let projectsList = projects.map((project) => {
+      return (
+        <div id={`project-${project.id}`} key={project.id}>
+        <h3>{project.name}</h3>
+        </div>
+      );
+    });
+    
+    return (
     <Container>
       <h1 id="projects-header">My Projects</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet alias atque fuga, nam explicabo quo temporibus? Laborum mollitia hic nisi.
-      </p>
+      {projectsList}
     </Container>
-  )
+    );
+  }
 }
 
 export default Projects
