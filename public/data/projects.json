@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "name": "My First Website",
-    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description": "This was my first project. The guy lost, but won the popular vote!"
+    "name": "ATM Machine App",
+    "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190902124355/ruby-programming-language.png",
+    "description": "This was my first ruby application. It is an ATM machine where the user can create a person, account and an ATM in terminal."
   },
   {
     "id": 2,
-    "name": "UI Design",
-    "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-    "description": "This was my first project. The guy lost, but won the popular vote!"
+    "name": "Library App",
+    "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20190902124355/ruby-programming-language.png",
+    "description": "It is a library application written in Ruby. A user can create a library and a visitor in terminal"
   },
   {
   "id": 3,
-  "name": "Mobile UX",
-  "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-  "description": "This was my first project. The guy lost, but won the popular vote!"
+  "name": "Address Book App",
+  "image": "https://img.emg-services.net/educations/education1486166/javascript.jpg",
+  "description": "It is an Address Book App where the user can add new contacts which will be added in a list."
   }
 ]
