@@ -5,9 +5,9 @@ const About = () => {
   return (
     <Container>
       <h1 id="about-header">About Me</h1>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita impedit vero fugiat odio qui obcaecati facilis iure asperiores perspiciatis quisquam.
-      </p>
+      <p>My name is Johnny See and I am a Junior Full Stack Web Developer. I live with my fiancé and daughter in lovely Gothenburg.</p>
+      <p>In my free time I love to study new things, but also test my skills by doing old projects. I love playing padel!</p>
+      <p>I love to code!</p>
     </Container>
   )
 }
