@@ -10,7 +10,6 @@ class Projects extends Component {
 
   componentDidMount() {
     axios.get("./data/projects.json").then((response) => {
-      debugger;
       this.setState({ projects: response.data});
   });
   }
