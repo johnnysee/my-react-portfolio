@@ -2,9 +2,6 @@ import React from 'react'
 import { Container } from "semantic-ui-react"
 import logo from './js.png'
 
-
-
-
 const About = () => {
   return (
     <Container>
