@@ -6,7 +6,7 @@ const About = () => {
   return (
     <Container>
       <h1 id="about-header">About Me</h1>
-      <img src={logo} alt="logo" />
+      <img id="logo" src={logo} alt="logo" />
       <p>My name is Johnny See and I am a Junior Full Stack Web Developer.</p>
       
       <p>I have 3.5 years of working experience within the automotive industry.</p>
