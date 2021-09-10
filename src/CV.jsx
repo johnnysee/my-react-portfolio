@@ -5,8 +5,8 @@ const CV = () => {
   return (
     <Container>
       <h1 id="cv-tab">CV</h1>
-      <h2 id="work experience">Work Experience</h2>
-      <h2 id="education">Education</h2>
+      <h2 id="cv-tab">Work Experience</h2>
+      <h2 id="cv-tab">Education</h2>
     </Container>
   )
 }

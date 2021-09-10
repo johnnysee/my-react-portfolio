@@ -13,10 +13,10 @@ describe("User can navigate to CV", () => {
   })
 
   it("is expected to contain Work Experience", () => {
-    cy.get('#cv-tab').should("contain", "Work Experience")
+    cy.get('#cv-tab').should("contain", "Work Experience");
   })
 
   it("is expected to contain Education", () => {
-    cy.get('#cv-tab').should("contain", "Education")
+    cy.get('#cv-tab').should("contain", "Education");
   });
 });
