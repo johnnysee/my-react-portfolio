@@ -1,11 +1,12 @@
 describe("User can navigate to CV", () => {
   beforeEach(() => {
     cy.visit("http://localhost:3000");
-  })
-    
-  it("is expected to be able to click on CV", () => {
     cy.get("#cv-tab").click();
-  })
+  });
+       
+  it("displays component name in url", () => {
+    cy.url().should("contain", "cv");
+  });
 
   it("is expected to contain cv in header" , () => {
     cy.get("#cv-tab").should("contain", "CV");
@@ -17,5 +18,5 @@ describe("User can navigate to CV", () => {
 
   it("is expected to contain Education", () => {
     cy.get('#cv-tab').should("contain", "Education")
-  })
-})
+  });
+});
