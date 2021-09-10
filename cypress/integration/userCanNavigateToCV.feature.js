@@ -8,14 +8,14 @@ describe("User can navigate to CV", () => {
   })
 
   it("is expected to contain cv in header" , () => {
-    cy.get("#header").should("contain", "CV");
+    cy.get("#cv-tab").should("contain", "CV");
   })
 
   it("is expected to contain Work Experience", () => {
-    cy.get('#cv').should("contain", "Work Experience")
+    cy.get('#cv-tab').should("contain", "Work Experience")
   })
 
   it("is expected to contain Education", () => {
-    cy.get('#cv').should("contain", "Education")
+    cy.get('#cv-tab').should("contain", "Education")
   })
 })

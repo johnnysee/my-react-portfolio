@@ -1,7 +1,6 @@
 import React from 'react'
 import { Menu, Segment } from 'semantic-ui-react'
 import { NavLink, Link } from 'react-router-dom'
-import CV from './CV'
 
 const Header = () => {
   return (
