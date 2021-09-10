@@ -35,7 +35,7 @@ const Header = () => {
         id="cv-tab"
         name="CV"
         as={NavLink}
-        to={{ pathname: "/contact"}}
+        to={{ pathname: "/cv"}}
         />
 
 
