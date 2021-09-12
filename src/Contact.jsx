@@ -1,5 +1,6 @@
 import React from 'react'
 import { Component } from 'react';
+import { Container } from 'semantic-ui-react'
 
 const encode = (data) => {
   return Object.keys(data)
@@ -30,6 +31,13 @@ class ContactForm extends Component {
   render() {
     const { name, email, message} = this.state;
     return (
+      <Container>
+      <a
+      href="https://www.linkedin.com/in/johnny-see/"
+      rel="nofollow noreferrer">
+      {" "}
+      My LinkedIn.
+      </a>
       <form onSubmit={this.handleSubmit} netlify name="contact">
       <input type="hidden" name="form-name" value="contact" />
       <p>
@@ -68,6 +76,7 @@ class ContactForm extends Component {
         <button type="submit">Send</button>
       </p>
       </form>
+      </Container>
     )
   }
 }
