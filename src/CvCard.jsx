@@ -1,14 +1,15 @@
 import react from "react";
-import { Card } from "semantic-ui-react";
+import { Card, List } from "semantic-ui-react";
 
 const CvCard = ({ work }) => {
   return (
-    <Card>
-    <Card.Content>
-      <Card.Header>{work.company}</Card.Header>
-      <h2>{work.position}</h2>
-    </Card.Content>
-    </Card>
+    <List>
+     <List.Item>{work.company}</List.Item>
+     <List.Item>{work.position}</List.Item>
+     <List.Item>{work.startDate}</List.Item>
+     <List.Item>{work.endDate}</List.Item>
+     <List.Item>{work.summary}</List.Item>
+    </List>
   )
 }
 

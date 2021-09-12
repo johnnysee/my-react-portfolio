@@ -14,8 +14,6 @@ class Cv extends Component {
     });
   }
 
-  
-
   render() {
     const { work } = this.state;
 
@@ -32,7 +30,6 @@ class Cv extends Component {
         <h1 id="cv-header">Work Experience</h1>
         <Grid>{workList}</Grid>
         <h1 id="cv-header">Education</h1>
-        <Grid>{workList}</Grid>
       </Container>
       
     )
