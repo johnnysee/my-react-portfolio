@@ -27,7 +27,9 @@
         "highlights": [],
         "position": "Wiring & Harness Engineer",
         "startDate": "2020-03-31",
-        "summary": "• Design electrical schematics and bundle drawings for suppliers, customer adaptation, aftermarket and on-going production release\n\n• Tools: SaberES Designer 2020 and Saber Harness 2015\n\n• PDM-system KOLA",
+        "summary": "• Design electrical schematics and bundle drawings for suppliers, customer adaptation, aftermarket and on-going production release",
+        "summary2": "• Tools: SaberES Designer 2020 and Saber Harness 2015",
+        "summary3": "• PDM-system KOLA",
         "website": "https://www.linkedin.com/company/volvo-bus-corporation/"
       },
       {
@@ -46,7 +48,12 @@
         "highlights": [],
         "position": "Information Production Engineer",
         "startDate": "2018-01-31",
-        "summary": "• Design wiring diagrams with SaberES Designer for aftermarket\n• Create fuse- & relay tables\n• PLM-system Teamcenter\n• JIRA & Agile Project Management\n• Responsibility to teach GRI (Geely Research Institute) wiring diagram tasks on-site in Sweden.",
+        "summary": "• Design wiring diagrams with SaberES Designer for aftermarket",
+        "summary2": "• Create fuse- & relay tables",
+        "summary3": "• PLM-system Teamcenter",
+        "summary4": "• Create fuse- & relay tables",
+        "summary5": "• JIRA & Agile Project Management",
+        "summary6": "• Responsibility to teach GRI (Geely Research Institute) wiring diagram tasks on-site in Sweden.",    
         "website": "https://www.linkedin.com/company/lynkco/"
       },
       {
@@ -68,55 +75,5 @@
         "startDate": "2013-04-30",
         "summary": "• Responsibility of teaching, scheduling & lesson plan for each student",
         "website": ""
-      },
-      {
-        "id": 7,
-        "institution": "Craft Academy",
-        "area": "Computer Software Engineering",
-        "studyType": "Full Stack Web Developer",
-        "startDate": "2021-08-31",
-        "endDate": "2021-11-30",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "id": 8,
-        "institution": "Craft Academy",
-        "area": "Computer Software Engineering",
-        "studyType": "Full Stack Web Developer",
-        "startDate": "2021-08-31",
-        "endDate": "2021-11-30",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "id": 9,
-        "institution": "國立臺灣師範大學",
-        "area": "Mandarin Training Center",
-        "studyType": "",
-        "startDate": "2017-12-31",
-        "endDate": "2017-12-31",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "id": 10,
-        "institution": "Linköping University",
-        "area": "Mechanical Engineering, Bachelor of Science",
-        "studyType": "Bachelor's degree",
-        "startDate": "2014-12-31",
-        "endDate": "2017-12-31",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "id": 11,
-        "institution": "Lars Kaggskolan",
-        "area": "Natural Sciences",
-        "studyType": "",
-        "startDate": "2008-12-31",
-        "endDate": "2011-12-31",
-        "gpa": "",
-        "courses": []
       }
     ]
