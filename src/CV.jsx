@@ -4,7 +4,7 @@ import axios from "axios";
 import WorkCard from "./WorkCard"
 import EducationCard from './EducationCard';
 
-class Cv extends Component {
+class CV extends Component {
   state = {
     work: [],
     education: [],
@@ -51,5 +51,5 @@ class Cv extends Component {
   }
 }
 
-export default Cv;
+export default CV;
 
