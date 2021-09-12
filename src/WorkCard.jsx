@@ -1,7 +1,7 @@
 import react from "react";
-import { Card, List } from "semantic-ui-react";
+import { List } from "semantic-ui-react";
 
-const CvCard = ({ work }) => {
+const WorkCard = ({ work }) => {
   return (
     <List>
      <List.Item>{work.company}</List.Item>
@@ -24,4 +24,4 @@ const CvCard = ({ work }) => {
   )
 }
 
-export default CvCard;
+export default WorkCard;
