@@ -1,19 +1,17 @@
 import React, { Component } from 'react'
 import { Container } from 'semantic-ui-react'
+import axios from "axios";
 
 class CV extends Component {
   state = {
-    work: [
-      {
-        id: 1,
-        company: "Volvo",
-      },
-      {
-        id: 2,
-        name: "Lynk",
-      },
-    ],
+    work: [],
   };
+
+  componentDidMount() {
+    axios.get("./data/work.json").then((response) => {
+      this.setState({ projects: response.data });
+    });
+  }
 
   render() {
     const { work } = this.state;
@@ -33,8 +31,9 @@ class CV extends Component {
       </Container>
     )
   }
+}
 
-export default CV
+export default CV;
 
 
 
