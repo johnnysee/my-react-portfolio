@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { Container } from 'semantic-ui-react'
+import { Container, Grid } from "semantic-ui-react";
 import axios from "axios";
+import CvCard from "./CvCard"
 
 class Cv extends Component {
   state = {
@@ -9,7 +10,7 @@ class Cv extends Component {
 
   componentDidMount() {
     axios.get("./data/work.json").then((response) => {
-      this.setState({ projects: response.data });
+      this.setState({ work: response.data });
     });
   }
 
@@ -19,7 +20,7 @@ class Cv extends Component {
     let workList = work.map((work) => {
       return (
         <div id={`work-${work.id}`} key={work.id}>
-          <h3>{work.name}</h3>
+           <CvCard work={work} />
         </div>
       );
     });
@@ -27,7 +28,7 @@ class Cv extends Component {
     return (
       <Container>
         <h1 id="cv-header">Work Experience</h1>
-        {workList}
+        <Grid>{workList}</Grid>
       </Container>
     )
   }

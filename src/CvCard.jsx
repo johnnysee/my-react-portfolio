@@ -1,11 +1,15 @@
 import react from "react";
 import { Card, Image } from "semantic-ui-react";
 
-const CvCard = ({ work}) => {
+const CvCard = ({ work }) => {
   return (
     <Card>
-      <h2>{work.company}</h2>
-      
+    <Card.Content>
+      <Card.Header>{work.company}</Card.Header>
+      <h2>{work.position}</h2>
+    </Card.Content>
     </Card>
   )
 }
+
+export default CvCard;
