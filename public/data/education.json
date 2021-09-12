@@ -1,385 +1,42 @@
-export const education = [
-{
-  "basics": {
-    "name": "Johnny See",
-    "label": "Full Stack Developer at CraftAcademy",
-    "picture": "",
-    "email": "js.johnny.see@gmail.com",
-    "phone": "+46707279738",
-    "website": "",
-    "summary": "I am attending Craft Academy's Full Stack Web Developer Bootcamp with expected graduation Nov 20, 2021.\n\nI am open for opportunities by the end of this year.\n\nLooking forward to connect with you!",
-    "location": {
-      "countryCode": "SE",
-      "address": "Gothenburg, Sweden"
-    },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "johnny-see",
-        "url": "https://www.linkedin.com/in/johnny-see/"
-      }
-    ]
+[
+  {
+    "id": 1,
+    "institution": "Craft Academy",
+    "area": "Computer Software Engineering",
+    "studyType": "Full Stack Web Developer",
+    "startDate": "2021-08-31",
+    "endDate": "2021-11-30",
+    "gpa": "",
+    "courses": []
   },
-  "work": [
-    {
-      "company": "CraftAcademy",
-      "endDate": "",
-      "highlights": [],
-      "position": "Full Stack Developer",
-      "startDate": "2021-07-31",
-      "summary": "• JavaScript HTML and CSS\n• React for Front End Development\n• Ruby on Rails and Node for Back End Development\n• PostgreSQL for Back End database management\n• React Native for building mobile versions of applications\n• Test driven approach using Cypress and RSpec\n• Git and GitHub for Version Control\n• Continuous integration with Semaphore\n• Deployment using Heroku and Netlify\n• Team and pair programming\n• Agile methodology\n• Scrum",
-      "website": "https://www.linkedin.com/company/craftacademy/"
-    },
-    {
-      "company": "Volvo Buses",
-      "endDate": "2021-06-30",
-      "highlights": [],
-      "position": "Wiring & Harness Engineer",
-      "startDate": "2020-03-31",
-      "summary": "• Design electrical schematics and bundle drawings for suppliers, customer adaptation, aftermarket and on-going production release\n\n• Tools: SaberES Designer 2020 and Saber Harness 2015\n\n• PDM-system KOLA",
-      "website": "https://www.linkedin.com/company/volvo-bus-corporation/"
-    },
-    {
-      "company": "-",
-      "endDate": "2020-02-28",
-      "highlights": [],
-      "position": "Parental Leave",
-      "startDate": "2019-11-30",
-      "website": ""
-    },
-    {
-      "company": "Lynk & Co",
-      "endDate": "2019-10-31",
-      "highlights": [],
-      "position": "Information Production Engineer",
-      "startDate": "2018-01-31",
-      "summary": "• Design wiring diagrams with SaberES Designer for aftermarket\n• Create fuse- & relay tables\n• PLM-system Teamcenter\n• JIRA & Agile Project Management\n• Responsibility to teach GRI (Geely Research Institute) wiring diagram tasks on-site in Sweden.",
-      "website": "https://www.linkedin.com/company/lynkco/"
-    },
-    {
-      "company": "Volvo Car Group",
-      "endDate": "2017-12-31",
-      "highlights": [],
-      "position": "Wiring Diagram Editor",
-      "startDate": "2017-11-30",
-      "summary": "• Verify wiring diagrams and make needed changes for each car model",
-      "website": "https://www.linkedin.com/company/volvocars/"
-    },
-    {
-      "company": "Smartstudies AB",
-      "endDate": "2013-09-30",
-      "highlights": [],
-      "position": "Private Teacher",
-      "startDate": "2013-04-30",
-      "summary": "• Responsibility of teaching, scheduling & lesson plan for each student",
-      "website": ""
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Craft Academy",
-      "area": "Computer Software Engineering",
-      "studyType": "Full Stack Web Developer",
-      "startDate": "2021-08-31",
-      "endDate": "2021-11-30",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "國立臺灣師範大學",
-      "area": "Mandarin Training Center",
-      "studyType": "",
-      "startDate": "2017-12-31",
-      "endDate": "2017-12-31",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "Linköping University",
-      "area": "Mechanical Engineering, Bachelor of Science",
-      "studyType": "Bachelor's degree",
-      "startDate": "2014-12-31",
-      "endDate": "2017-12-31",
-      "gpa": "",
-      "courses": []
-    },
-    {
-      "institution": "Lars Kaggskolan",
-      "area": "Natural Sciences",
-      "studyType": "",
-      "startDate": "2008-12-31",
-      "endDate": "2011-12-31",
-      "gpa": "",
-      "courses": []
-    }
-  ],
-  "awards": [],
-  "publications": [],
-  "skills": [
-    {
-      "name": "JavaScript",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "HTML5",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "CSS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Engineering",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Automotive",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Entrepreneurship",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "CAD",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Teknik",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Projektledning",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Affärsstrategi",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Front-end Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Social Media Marketing",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Social Media",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Economics",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React Hooks",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Node.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "React.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "CATIA V5",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Excel",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Matlab",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Back-End Web Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "WordPress",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Simulink",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Bootstrap",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ruby on Rails",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Cypress",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Swift 5",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Word",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Express.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Redux.js",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Document Object Model (DOM)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SASS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "MySQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Microsoft Office",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Facebook Ads",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Xcode",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Python (Programming Language)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Git",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Social Media Integration",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "ANSYS",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Ruby",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "PHP",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Social Media Advertising",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "RSpec",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SQL",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Behavior-Driven Development (BDD)",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Postman API",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Test Driven Development",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "SaberES Designer",
-      "level": "",
-      "keywords": []
-    },
-    {
-      "name": "Visual Studio",
-      "level": "",
-      "keywords": []
-    }
-  ],
-  "languages": [
-    {
-      "language": "sv",
-      "fluency": "Native Speaker"
-    }
-  ],
-  "interests": [],
-  "references": [
-    {
-      "name": "Carl Henric Prestor",
-      "reference": "When I went to high school I had difficulties with the maths. Johnny stepped in and helped me with the maths at such grade that I still use his techniques to this day. With this said I’d like to say that Johnny is a pedagogical and great mentor.\n"
-    }
-  ]
-}
+  {
+    "id": 2,
+    "institution": "國立臺灣師範大學",
+    "area": "Mandarin Training Center",
+    "studyType": "",
+    "startDate": "2017-12-31",
+    "endDate": "2017-12-31",
+    "gpa": "",
+    "courses": []
+  },
+  {
+    "id": 3,
+    "institution": "Linköping University",
+    "area": "Mechanical Engineering, Bachelor of Science",
+    "studyType": "Bachelor's degree",
+    "startDate": "2014-12-31",
+    "endDate": "2017-12-31",
+    "gpa": "",
+    "courses": []
+  },
+  {
+    "id": 4,
+    "institution": "Lars Kaggskolan",
+    "area": "Natural Sciences",
+    "studyType": "",
+    "startDate": "2008-12-31",
+    "endDate": "2011-12-31",
+    "gpa": "",
+    "courses": []
+  }
 ]
