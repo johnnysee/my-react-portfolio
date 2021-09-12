@@ -1,27 +1,6 @@
-export const work = [
-  {
-    "basics": {
-      "name": "Johnny See",
-      "label": "Full Stack Developer at CraftAcademy",
-      "picture": "",
-      "email": "js.johnny.see@gmail.com",
-      "phone": "+46707279738",
-      "website": "",
-      "summary": "I am attending Craft Academy's Full Stack Web Developer Bootcamp with expected graduation Nov 20, 2021.\n\nI am open for opportunities by the end of this year.\n\nLooking forward to connect with you!",
-      "location": {
-        "countryCode": "SE",
-        "address": "Gothenburg, Sweden"
-      },
-      "profiles": [
-        {
-          "network": "LinkedIn",
-          "username": "johnny-see",
-          "url": "https://www.linkedin.com/in/johnny-see/"
-        }
-      ]
-    },
-    "work": [
+[
       {
+        "id": 1,
         "company": "CraftAcademy",
         "endDate": "",
         "highlights": [],
@@ -31,6 +10,7 @@ export const work = [
         "website": "https://www.linkedin.com/company/craftacademy/"
       },
       {
+        "id": 2,
         "company": "Volvo Buses",
         "endDate": "2021-06-30",
         "highlights": [],
@@ -40,6 +20,7 @@ export const work = [
         "website": "https://www.linkedin.com/company/volvo-bus-corporation/"
       },
       {
+        "id": 3,
         "company": "-",
         "endDate": "2020-02-28",
         "highlights": [],
@@ -48,6 +29,7 @@ export const work = [
         "website": ""
       },
       {
+        "id": 4,
         "company": "Lynk & Co",
         "endDate": "2019-10-31",
         "highlights": [],
@@ -57,6 +39,7 @@ export const work = [
         "website": "https://www.linkedin.com/company/lynkco/"
       },
       {
+        "id": 5,
         "company": "Volvo Car Group",
         "endDate": "2017-12-31",
         "highlights": [],
@@ -66,6 +49,7 @@ export const work = [
         "website": "https://www.linkedin.com/company/volvocars/"
       },
       {
+        "id": 6,
         "company": "Smartstudies AB",
         "endDate": "2013-09-30",
         "highlights": [],
@@ -74,312 +58,4 @@ export const work = [
         "summary": "• Responsibility of teaching, scheduling & lesson plan for each student",
         "website": ""
       }
-    ],
-    "volunteer": [],
-    "education": [
-      {
-        "institution": "Craft Academy",
-        "area": "Computer Software Engineering",
-        "studyType": "Full Stack Web Developer",
-        "startDate": "2021-08-31",
-        "endDate": "2021-11-30",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "institution": "國立臺灣師範大學",
-        "area": "Mandarin Training Center",
-        "studyType": "",
-        "startDate": "2017-12-31",
-        "endDate": "2017-12-31",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "institution": "Linköping University",
-        "area": "Mechanical Engineering, Bachelor of Science",
-        "studyType": "Bachelor's degree",
-        "startDate": "2014-12-31",
-        "endDate": "2017-12-31",
-        "gpa": "",
-        "courses": []
-      },
-      {
-        "institution": "Lars Kaggskolan",
-        "area": "Natural Sciences",
-        "studyType": "",
-        "startDate": "2008-12-31",
-        "endDate": "2011-12-31",
-        "gpa": "",
-        "courses": []
-      }
-    ],
-    "awards": [],
-    "publications": [],
-    "skills": [
-      {
-        "name": "JavaScript",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "HTML5",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "CSS",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Engineering",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Automotive",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Entrepreneurship",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "CAD",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Teknik",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Projektledning",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Affärsstrategi",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Front-end Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Social Media Marketing",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Social Media",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Economics",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "React Hooks",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Node.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "React.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "CATIA V5",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Microsoft Excel",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Matlab",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Back-End Web Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "WordPress",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Simulink",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Bootstrap",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Ruby on Rails",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Cypress",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Swift 5",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Microsoft Word",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Express.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Redux.js",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Document Object Model (DOM)",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "SASS",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "MySQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Microsoft Office",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Facebook Ads",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Xcode",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Python (Programming Language)",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Git",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Social Media Integration",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "ANSYS",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Ruby",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "PHP",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Social Media Advertising",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "RSpec",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "SQL",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Behavior-Driven Development (BDD)",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Postman API",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Test Driven Development",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "SaberES Designer",
-        "level": "",
-        "keywords": []
-      },
-      {
-        "name": "Visual Studio",
-        "level": "",
-        "keywords": []
-      }
-    ],
-    "languages": [
-      {
-        "language": "sv",
-        "fluency": "Native Speaker"
-      }
-    ],
-    "interests": [],
-    "references": [
-      {
-        "name": "Carl Henric Prestor",
-        "reference": "When I went to high school I had difficulties with the maths. Johnny stepped in and helped me with the maths at such grade that I still use his techniques to this day. With this said I’d like to say that Johnny is a pedagogical and great mentor.\n"
-      }
     ]
-  }
-  ]

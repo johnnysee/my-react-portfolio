@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Container } from 'semantic-ui-react'
 import axios from "axios";
 
-class CV extends Component {
+class Cv extends Component {
   state = {
     work: [],
   };
@@ -18,8 +18,8 @@ class CV extends Component {
 
     let workList = work.map((work) => {
       return (
-        <div id={`work-${work.id}`} key={project.id}>
-          <h3>{project.name}</h3>
+        <div id={`work-${work.id}`} key={work.id}>
+          <h3>{work.name}</h3>
         </div>
       );
     });
@@ -33,7 +33,7 @@ class CV extends Component {
   }
 }
 
-export default CV;
+export default Cv;
 
 
 
