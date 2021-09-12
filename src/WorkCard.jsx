@@ -7,7 +7,6 @@ const WorkCard = ({ work }) => {
      <List.Item>{work.company}</List.Item>
      <List.Item>{work.position}</List.Item>
      <List.Item>{work.startDate}</List.Item>
-     <List.Item>{work.endDate}</List.Item>
      <List.Item>{work.summary}</List.Item>
      <List.Item>{work.summary2}</List.Item>
      <List.Item>{work.summary3}</List.Item>

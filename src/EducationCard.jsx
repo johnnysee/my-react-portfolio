@@ -7,7 +7,6 @@ const EducationCard = ({ education }) => {
      <List.Item>{education.institution}</List.Item>
      <List.Item>{education.studyType}</List.Item>
      <List.Item>{education.startDate}</List.Item>
-     <List.Item>{education.endDate}</List.Item>
     </List>
   )
 }
