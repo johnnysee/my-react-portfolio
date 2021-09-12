@@ -1,6 +1,6 @@
 import React from 'react'
 import { Component } from 'react';
-import { Container } from 'semantic-ui-react'
+import { Container, Icon } from 'semantic-ui-react'
 
 const encode = (data) => {
   return Object.keys(data)
@@ -34,10 +34,19 @@ class ContactForm extends Component {
       <Container>
       <a
       href="https://www.linkedin.com/in/johnny-see/"
-      rel="nofollow noreferrer">
+      rel="nofollow noreferrer"
+      target="_blank">
+      <Icon name="linkedin" size="big" />
       {" "}
-      My LinkedIn.
       </a>
+      <a
+      href="https://github.com/johnnysee"
+      rel="nofollow noreferrer"
+      target="_blank">
+      <Icon name="github" size="big" />
+      {" "}
+      </a>
+
       <form onSubmit={this.handleSubmit} netlify name="contact">
       <input type="hidden" name="form-name" value="contact" />
       <p>
