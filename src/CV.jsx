@@ -42,9 +42,7 @@ class Cv extends Component {
     return (
       <Container>
         <h1 id="cv-header">Work Experience</h1>
-        <Grid.Row>
         <Grid.Column>{workList}</Grid.Column>
-        </Grid.Row>
         <h1 id="cv-header">Education</h1>
         <Grid.Column>{educationList}</Grid.Column>
       </Container>
